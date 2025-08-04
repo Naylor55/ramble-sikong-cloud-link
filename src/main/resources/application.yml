@@ -1,0 +1,18 @@
+server:
+  port: 9009
+
+# 司空配置
+sikong:
+  # 组织密钥
+  orgToken: eyJhbGciOiJIUzUxMiIsImNyaXQiOlsidHlwIiwiYWxnIiwia2lkIl0sImtpZCI6IjhiZmRiZmRkLWM4OGYtNGE5Yi04NzI3LWQ0ZGYzYWE5OTJlOSIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50IjoiMTgyMjI3MDY5ODYiLCJleHAiOjIwNjEwODMwOTgsIm5iZiI6MTc0NTU1MDI5OCwib3JnYW5pemF0aW9uX3V1aWQiOiI3YjgxYTM1YS0yNTVkLTQ1NjUtOGFiNy04NzE3MWNkM2MxZDUiLCJwcm9qZWN0X3V1aWQiOiIiLCJzdWIiOiJmaDIiLCJ1c2VyX2lkIjoiMTc3MDAwODc2NzI3NTAxMjA5NiJ9.JJGGFjHFy-vIhx9m39E6CCaDz1v5rF5_7gQUYJ-hInu8SBjJZEeTS2k9CfQVfqm4phKSkUFA4GZRPfrqfCqlvg
+  # 接口前缀
+  urlPrefix: https://es-flight-api-cn.djigate.com
+  # token key
+  tokenKey: X-Organization-Key
+  jiyangProjectUuid: b96b008f-f9b6-4686-acd0-446a07d2488a
+
+
+
+logging:
+  level:
+    com.ramble: debug
